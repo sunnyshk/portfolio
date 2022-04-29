@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import nykaa from "../../Assets/Projects/nykaass.png";
+
+import resume from "../../Assets/Projects/resumeB.png";
+
+import tanishq from "../../Assets/Projects/taniss.png"
 
 function Projects() {
   return (
@@ -23,7 +22,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={tanishq}
               isBlog={false}
               title="Tanishq Website Clone"
               description="Tanishq is a online retail store which deals in both mens and womens jewellery as well as diamonds, This is a full stack project build by me and my team menbers using Node.js, MongoDB and Express.js"
@@ -33,17 +32,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={resume}
               isBlog={false}
               title="Resume Builder"
-              description="My personal Project build with React which helps the user to create their resumes according to their needs."
+              description="My personal Project build with React which helps the users to create their resumes according to their needs."
               link="https://github.com/sunnyshk/Resume-Builder-App/tree/master/ResumeBuilder/resumeBuilder"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={nykaa}
               isBlog={false}
               title="Nykaa Website Clone"
               description="Nykaa is an online web based retail store which is specialized in cosmetic & beauty products for men and women. This is a collaborative project done in a team of 6 members including myself within a span of 6 days.
