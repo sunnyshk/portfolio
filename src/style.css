@@ -21,7 +21,12 @@ html {
 button:focus {
   box-shadow: none !important;
 }
-
+.mt{
+  margin-top: 20px;
+}
+.ml{
+  margin-left: 10px;
+}
 /* --------- */
 /*  Preloader */
 /* --------- */

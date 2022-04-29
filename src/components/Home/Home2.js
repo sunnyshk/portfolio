@@ -82,6 +82,10 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
+              
+              <li className="mt"><p>Email: shkjhs77@gmail.com</p></li>
+              <li className="mt"><p>Phone: +91 9284838884</p></li>
+
             
             </ul>
           </Col>
